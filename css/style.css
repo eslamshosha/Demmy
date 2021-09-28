@@ -964,7 +964,7 @@ html[dir=rtl] .newsletter-button{
     left: 0;
     right: auto;
 }
-html[dir=rtl] .newsletter-button i{
+html[dir=rtl] .newsletter-button span{
     transform: scaleX(-1);
 }
 .newsletter-button:hover{
