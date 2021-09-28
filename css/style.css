@@ -362,6 +362,15 @@ html[dir=rtl] .add-to .dropdown-content{
     text-align: center;
     margin-bottom: 60px;
 }
+.product-col{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 55px;
+}
+.product-col .product-item{
+    position: relative;
+}
 /*                         product-grid-section                            */
 /*                           big-image section                          */
 .big-image-section{
@@ -524,9 +533,6 @@ html[dir=rtl] .product-section .product .product-hint{
 .product .product-button i{
     font-size: 20px;
     margin-inline-end: 4px;
-}
-.product-div .row{
-    margin-bottom: 55px;
 }
 .product-grid .product-btn{
     text-decoration: none;
@@ -1222,9 +1228,10 @@ html[dir=rtl] .newsletter-button i{
 }
    /*        image-grid-section             */
    /*           product-grid             */
-   .product-grid .col-lg-4{
-       margin-bottom: 15px;
-   }
+   .product-col{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    }
    /*           product-grid             */
    /*        product slider            */
    .product .product-content{
