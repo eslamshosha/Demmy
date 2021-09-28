@@ -422,7 +422,8 @@ html[dir=rtl] .add-to .dropdown-content{
     width: 100%;
     /* border-radius: 20px; */
 }
-.product .product-img:hover img{
+.product .product-img img{
+    width: 100%;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
